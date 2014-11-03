@@ -1,0 +1,59 @@
+@import "fontsncolors.scss";
+
+.body{
+
+}
+header{
+	width:100vw;
+	height:41px;
+	background-color:$bgrenheadertop;
+	color:$mainblue;
+	font-family: SansSourcePro;
+
+
+}
+#arbitrary {
+	display:flex;
+	flex-direction:column;
+	align-self:center;
+	}
+#toprow {
+
+display:flex;
+flex-direction:right;
+flex-wrap:nowrap;
+justify-content:space-between;
+
+}
+ul{
+	display:flex;
+	decoration:none;
+	margin-left:15px;
+	margin-right:15px;
+	
+}
+li{
+padding: 10px;
+align-self:center;
+}
+.contact {
+justify-content:left;
+}
+.social {
+justify-content:right;
+}
+.topnav {
+	display:flex;
+	flex-direction:right;
+	justify-content:center;
+	height:114px;
+}
+#carosel {
+	font-family:"Myriad Pro";
+	font-size:18pt;
+	font-color:white;
+	background-image: url("img/Carosel.png");
+	height:880px;
+	width:100vw;
+	
+}
