@@ -1,3 +1,105 @@
+html {
+  width: 100%; }
 
+body {
+  font-family: "SansSourcePro";
+  color: #506a85; }
+
+.narrow {
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto; }
+
+.row {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+h2 {
+  font-family: "lato bold";
+  font-size: 2.75rem; }
+
+h3 {
+  font-family: "lato bold";
+  font-size: 1.625rem; }
+
+header {
+  background-color: #F5F7FA;
+  color: #506a85; }
+
+.wide-background {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 30px; }
+
+.white {
+  background-color: #FFF; }
+
+.blue {
+  background-color: #2f4052;
+  color: #FFF; }
+
+#contact {
+  justify-content: left; }
+
+#social {
+  justify-content: right; }
+
+#topnav {
+  background-color: white; }
+
+#toprow {
+  display: flex; }
+
+#datetoday {
+  color: blue;
+  text-align: center; }
+  #datetoday h2 {
+    margin-top: 0px; }
+
+ul {
+  decoration: none;
+  color: #506a85;
+  display: flex;
+  align-items: center; }
+
+li {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.carousel-background1 {
+  background-image: url("../img/carosel.png");
+  background-repeat: no-repeat; }
+
+.carousel {
+  text-align: center;
+  margin: 10em 0 10em 0;
+  color: #a3b1bf;
+  font-size: 1.5em; }
+  .carousel h1 {
+    font-family: "lato black";
+    font-size: 4.875em;
+    color: #FFF; }
+
+.content-intro {
+  float: center;
+  text-align: center;
+  padding: 5px;
+  clear: both;
+  margin-right: 15%;
+  margin-left: 15%;
+  font-size: 1.375em; }
+
+#latest-works {
+  background-color: f2f5f7; }
+
+.thumbnail {
+  padding: 0px; }
+
+.caption {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

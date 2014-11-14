@@ -6,7 +6,18 @@ body {
 font-family: "SansSourcePro";
 color:#506a85;
 }
-
+.narrow { 
+	align-self:center;
+	align-items:center;
+	justify-content:center;
+	display:flex;
+	margin-left:auto;
+	margin-right:auto;
+}
+.row{
+	margin-top:40px;
+	margin-bottom:40px;
+}
 h2 {
 font-family:"lato bold";
 font-size:2.75rem;
@@ -16,15 +27,23 @@ font-family:"lato bold";
 font-size:1.625rem;
 }
 header{
-width:100vw;
 background-color:$bgrenheadertop;
 color:$mainblue;
+
 }
-#toprow {
+.wide-background {
 display:flex;
-flex-direction:right;
-flex-wrap:nowrap;
-justify-content:space-between;
+width:100%;
+justify-content:center;
+margin-bottom:30px;
+}
+
+.white {
+	background-color:#FFF;
+}
+.blue {
+	background-color:#2f4052;
+	color:#FFF;
 }
 #contact {
 justify-content:left;
@@ -32,33 +51,33 @@ justify-content:left;
 #social {
 justify-content:right;
 }
-.topnav {
-display:flex;
-flex-direction:right;
-justify-content:left;
+#topnav {
 background-color: white;
 }
+#toprow {
+	display:flex;
+}
+#dateToday {
+	color:blue;
+	text-align:center;
+	h2 {margin-top:0px;
+	}
+}
 ul{
-display:flex;
 decoration:none;
-margin-left:15px;
-margin-right:15px;
 color:$mainblue;
-padding:10px;
+display:flex;
+align-items:center;
 }
 li{
-padding: 10px;
-align-self:center;
+padding-left:5px;
+padding-right:5px;
 }
-.background {
-display:flex;
-width:100%;
+.carousel-background1 {
 background-image: url("../img/carosel.png");
 background-repeat:no-repeat;
-margin-top:auto;
-justify-content:center;
 }
-.carosel {
+.carousel {
 text-align:center;
 margin:10em 0 10em 0;
 color:#a3b1bf;
@@ -68,12 +87,7 @@ font-size:1.5em;
 		color:#FFF;
 	}
 }
-main {
-margin-left:20%;
-margin-right:20%;
-font:#73879c;
-}
-.leadin {
+.content-intro {
 	float:center;
 	text-align:center;
 	padding:5px;
@@ -81,23 +95,14 @@ font:#73879c;
 	margin-right:15%;
 	margin-left:15%;
 	font-size:1.375em;
+}
+#latest-works {
+	background-color:f2f5f7;
 
 }
-.flexin {
-	font:1em;
-	text-align:left;
-	display:flex;
-	flex-direction:row;
-	min-height:50%;
-	padding:5px;
-		span{
-			padding:5px;
-		}
-			img {
-				padding:5px;
-				float:left;
-				margin-bottom: 100%
-
-			}
-	}
-
+.thumbnail {
+	padding:0px;
+}
+.caption {
+	text-align:center;
+}
