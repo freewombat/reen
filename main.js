@@ -10,3 +10,18 @@ if(dd<10) {
 today = mm+'/'+dd+'/'+yyyy;
 document.getElementById("jsDate").innerHTML = today;
 document.getElementById("jsDateWords").innerHTML = word[weekDay];
+
+$("#thelightbox").click(function() {
+	console.log($("#demolightbox"));
+	$("#demolightbox").lightbox();
+});
+
+
+$(document).ready(function() {
+    
+$.ajax({url:"https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty"}).done(function(response) {
+    for(i=0;i<10;i++) {
+          $("#hackernews").append("<li>"+response[i]+"</li>");
+    }
+});
+});

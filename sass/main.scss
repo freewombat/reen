@@ -3,7 +3,7 @@ html {
 	width:100%;
 }
 body {
-font-family: "SansSourcePro";
+font-family: "Source Sans Pro", "comic sans";
 color:#506a85;
 }
 .narrow { 
@@ -29,7 +29,13 @@ font-size:1.625rem;
 header{
 background-color:$bgrenheadertop;
 color:$mainblue;
-
+}
+footer{
+	color:white;
+}
+ol{
+		color:white;
+		list-style-type: decimal;
 }
 .wide-background {
 display:flex;
@@ -82,7 +88,7 @@ text-align:center;
 margin:10em 0 10em 0;
 color:#a3b1bf;
 font-size:1.5em;
-	h1 {font-family:"lato black";
+	h1 {font-family:"lato";
 		font-size: 4.875em;
 		color:#FFF;
 	}
